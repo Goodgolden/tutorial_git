@@ -1,6 +1,6 @@
 # tutorial_git
-a testing repository for testing
-feel free to update and change anything!
+## a testing repository for testing\
+#### feel free to update and change anything!
 
 many many other resources:\
 https://docs.github.com/en \
