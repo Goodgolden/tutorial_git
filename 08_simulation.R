@@ -1,10 +1,14 @@
 ## packages --------------------------------------------------------------------
+# Mon Apr 05 13:17:34 2021 ------------------------------
+
 library("tidymodels")
 library("tidyverse")
 library("here")
 library("janitor")
 
 ## table1 and formates
+## # Mon Apr 05 13:17:47 2021 ------------------------------
+
 library("knitr")
 library("gtsummary")
 library("flextable")
