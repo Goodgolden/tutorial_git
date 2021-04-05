@@ -1,0 +1,49 @@
+---
+title: "08_simulation"
+author: "Randy"
+date: "3/22/2021"
+output:
+  word_document: 
+    reference_docx: template.docx
+---
+
+# A simple case for Table1
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE)
+
+## use a personalized template in the same folder
+## the template.docx is setted up manually for style
+
+source("08_simulation.R")
+```
+
+
+## Table 1: The basic table1 with p-value
+```{r}
+table1_3
+```
+
+\newpage
+
+
+## Table 2: The customized statistics tabel1
+```{r}
+table1_4
+```
+
+\newpage
+## Table 3: Change Style
+```{r}
+table1_6
+```
+
+\newpage
+
+## Table 4: Crossed table 
+```{r}
+table2_4
+```
+
